@@ -7,38 +7,53 @@ body {
   background-color: #1c1c1c;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 150px;
+}
 .main {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-h1 {
-  color: white;
+  background-color: #1f2937;
+  padding: 35px;
+  max-width: 30vw;
 }
 
 .under-title {
   color: white;
+  padding-bottom: 40px;
 }
 
+.password-box {
+  display: flex;
+  gap: 10px;
+}
+
+.password-el-left,
 .password-el-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #273549;
   color: #4adf86;
   width: 200px;
   height: 30px;
-  text-align: center;
-}
-
-.password-el-left {
-  background-color: #273549;
-  color: #4adf86;
-  width: 200px;
-  height: 30px;
-  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 button {
   border: none;
+  max-width: 150px;
+  height: 30px;
   border-radius: 6px;
   background-color: #10b981;
+}
+
+h1 {
+  color: white;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  width: 250px;
 }
