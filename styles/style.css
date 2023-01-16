@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #1c1c1c;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+
+.under-title {
+  color: white;
+}
+
+.password-el-right {
+  background-color: #273549;
+  color: #4adf86;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+}
+
+.password-el-left {
+  background-color: #273549;
+  color: #4adf86;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+}
+
+button {
+  border: none;
+  border-radius: 6px;
+  background-color: #10b981;
+}
