@@ -1,5 +1,5 @@
-const leftPassword = document.querySelector(".password-el-left");
-const rightPassword = document.querySelector(".password-el-right");
+const leftPassword = document.querySelector(".password-left");
+const rightPassword = document.querySelector(".password-right");
 const generatePassword = document.getElementById("generate-password");
 
 const characters = [

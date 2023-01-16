@@ -18,11 +18,13 @@ body {
   background-color: #1f2937;
   padding: 35px;
   max-width: 30vw;
+  gap: 20px;
+  border-radius: 20px;
 }
 
 .under-title {
   color: white;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .password-box {
@@ -30,8 +32,8 @@ body {
   gap: 10px;
 }
 
-.password-el-left,
-.password-el-right {
+.password-left,
+.password-right {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,6 +56,9 @@ button {
 h1 {
   color: white;
   font-weight: bolder;
-  padding-bottom: 10px;
   width: 250px;
+}
+
+hr.solid {
+  border: 1px solid #2f3e53;
 }
